@@ -1,10 +1,22 @@
 # ajv-bsontype
 
-adds mongodb's bsonType validators
+Add bsonType validators to MongoDB
 
 * npm install ajv-bsontype --save
 
+
 ## Setup
+
+### ESM
+
+```
+import Ajv from 'ajv'
+import bson from 'ajv-bsontype';
+const ajv = new Ajv(); // options: https://ajv.js.org/options.html#usage
+bson(ajv);
+```
+
+### CJS
 
 ```
 var Ajv = require('ajv');
