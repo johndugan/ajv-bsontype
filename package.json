@@ -1,5 +1,5 @@
 {
-  "name": "ajv-bsontype",
+  "name": "@johndugan/ajv-bsontype",
   "version": "1.0.0",
   "description": "Add bsonType validator to MongoDB",
   "main": "index.js",
